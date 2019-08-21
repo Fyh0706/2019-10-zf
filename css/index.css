@@ -1,0 +1,207 @@
+header{
+    width: 100%;
+    height: 1.12rem;
+    background: #000;
+    position: fixed;
+    top:0px;
+    left: 0px;
+}
+.md{
+    width:6.04rem;
+    margin: 0 auto;
+}
+.logo{
+    width: 2.1rem ;
+    background: url("../images/logo.png") center center no-repeat;
+    background-size: cover;
+    height: 0.62rem;
+    float: left;
+    margin-top: 0.25rem;
+    margin-left: 0.15rem;
+}
+.menu{
+    width:0.36rem;
+    height: 0.32rem;
+    background: url("../images/menu.png") center center no-repeat;
+    background-size: cover;
+    float: right;
+    margin-top: 0.38rem;
+    margin-right: 0.23rem;
+    
+}
+/* banner */
+.banner{
+   margin-top: 1.12rem;
+    position: relative;
+}
+.bannerIn>li a{
+    display: block;
+    width:100%;
+    height: 3.41rem;
+    background: url("../images/banner.png") center center no-repeat;
+
+    background-size: cover;
+}
+.bannerBa{
+    position: absolute;
+    left:50%;
+    margin-left: -0.52rem;
+    bottom:0.2rem;
+}
+.bannerBa li{
+    float: left;
+    margin-right: 0.1rem;
+    
+
+}
+.bannerBa>li a{
+    display:inline-block;
+    width: 0.16rem;
+    height: 0.16rem;
+    
+    border-radius: 50%;
+    background: #fff;
+   
+}
+/* 全部课程 */
+.management{
+   background: #f8f8f8;
+   padding: 0 0.2rem;
+   
+}
+.management-top{
+
+    
+    height: 1rem;
+    line-height: 1rem; 
+}
+.management-top h2{
+    background: url("../images/management.png") left center no-repeat;
+    background-size: 0.29rem 0.35rem;
+    text-indent: 0.4rem;
+    font-size: 0.26rem;
+   
+}
+.management-bottom{
+    margin-bottom: 0.43rem;
+    
+}
+.management-bottom ul li{
+    height: 4.29rem;
+    background: #fff;
+    margin-bottom: 0.36rem;
+   box-shadow: 0rem 0rem 0.15rem 0rem rgba(0,0,0,0.3);
+    
+}
+.management-bottom ul li:last-child{
+    margin-bottom: 1.7rem;
+    
+}
+.management-bottom ul>li:first-child  .imgtop{
+    height: 2.8rem;
+    background: url("../images/management1.png") center center no-repeat;
+    background-size: cover;
+}
+.management-bottom ul>li:nth-child(2) .imgtop{
+    height: 2.8rem;
+    background: url("../images/management2.png") center center no-repeat;
+    background-size: cover;
+}
+.management-bottom ul>li:nth-child(3) .imgtop{
+    height: 2.8rem;
+    background: url("../images/management3.png") center center no-repeat;
+    background-size: cover;
+}
+.management-bottom ul>li:nth-child(4) .imgtop{
+    height: 2.8rem;
+    background: url("../images/management4.png") center center no-repeat;
+    background-size: cover;
+}
+.management-bottom ul>li:nth-child(5) .imgtop{
+    height: 2.8rem;
+    background: url("../images/management5.png") center center no-repeat;
+    background-size: cover;
+}
+.management-bottom ul>li:last-child .imgtop{
+    height: 2.8rem;
+    background: url("../images/management6.png") center center no-repeat;
+    background-size: cover;
+}
+.fontbottom{
+   text-align: center;
+   font-size: 0.28rem;
+
+
+}
+.fontbottom>p:first-child{
+    color: #777777;
+    margin: 0.3rem 0rem 0.25rem 0rem;
+}
+.fontbottom>p:last-child{
+    color: #ed3a3a;
+}
+.foot{
+    width: 100%;
+    background: #fff;
+    
+    padding-top: 0.2rem;
+    border-top: 1px solid #b0b0b0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+   
+}
+
+.foot ul>li{
+    width:33.33%;
+    height: 1.06rem;
+    float: left;
+ 
+}
+
+.foot ul>li:nth-child(2) a>p:first-child{
+ width:33.3%;
+ height: 0.39rem;
+ background: url("../images/courses.png") center center no-repeat;
+ background-size: 0.40rem 0.39rem;
+ 
+}
+.foot ul>li:last-child
+a>p:first-child{
+    
+ height: 0.39rem;
+ background: url("../images/personal.png") center center no-repeat;
+ background-size: 0.36rem 0.36rem;
+ 
+}
+.foot ul>li a>p:first-child{ 
+ width:33.3%;
+ height: 0.39rem;
+ background: url("../images/main.png") center center no-repeat;
+ background-size: 0.46rem 0.32rem;
+ margin: 0 auto;
+ margin-bottom: 0.08rem;
+ 
+
+}
+
+.foot ul>li a>p{ 
+   font-size:0.16rem;
+   color: #ababab;
+   text-align: center;  
+ }
+ .footIn>li>a:hover>p:first-child{
+    background-image: url("../images/main1.png");
+
+ }
+ .footIn>li:nth-child(2)>a:hover>p:first-child{
+    background-image: url("../images/courses1.png");
+
+ }
+ .footIn>li:last-child>a:hover>p:first-child{
+    background-image: url("../images/personal1.png");
+
+ }
+ .footIn>li>a:hover .color{
+     color: #188ae4;
+ }
